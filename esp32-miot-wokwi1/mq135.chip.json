@@ -1,0 +1,15 @@
+{
+  "name": "mq135",
+  "author": "ProCoding Whitehat JR",
+  "pins": [ "VCC", "GND", "A0", "D0" ],
+  "controls": [
+    {
+      "id": "ppm",
+      "label": "Kadar Gas (PPM)",
+      "type": "range",
+      "min": 0,
+      "max": 1000,
+      "value": 100
+    }
+  ]
+}
